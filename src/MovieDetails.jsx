@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Box, Image, Heading, Text, Badge, Spinner, Flex, Button } from "@chakra-ui/react";
 
-const API_URL = "http://www.omdbapi.com/?apikey=6d468d2c";
+const API_URL = "https://www.omdbapi.com/?apikey=6d468d2c";
 
 const MovieDetails = () => {
   const { id } = useParams();

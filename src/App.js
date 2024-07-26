@@ -10,7 +10,7 @@ import Loading from "./Loading";
 import MovieDetails from "./MovieDetails";
 // import SideBar from "./SideBar";
 
-const API_URL = "http://www.omdbapi.com/?apikey=6d468d2c";
+const API_URL = "https://www.omdbapi.com/?apikey=6d468d2c";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");

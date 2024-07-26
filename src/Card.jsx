@@ -3,7 +3,7 @@ import { Box, Image, Text, Badge, Spinner } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import { px } from "framer-motion";
 
-const API_URL = "http://www.omdbapi.com/?apikey=6d468d2c";
+const API_URL = "https://www.omdbapi.com/?apikey=6d468d2c";
 
 const Card = ({ movie: { imdbID, Year, Poster, Title, Type } }) => {
   const [details, setDetails] = useState({});
